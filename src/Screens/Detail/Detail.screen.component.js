@@ -19,8 +19,8 @@ const DetailScreen = ({
   decreaseCount,
 }: Props) => {
   const initialState = {
-    name: 'Raja',
-    age: 18,
+    name: 'Iwank',
+    age: 26,
   };
   const [state, setState] = useState(initialState);
   const {name, age} = state;
